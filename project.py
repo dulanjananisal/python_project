@@ -44,7 +44,7 @@ bank = Bank(totle_value)
 
 if bank.user_input == 'w':
     withdrawal_value = int(input('Enter Your Withdrawal Value: '))
-    bank.withdrow(withdrawal_value)
+    bank.withdrawal(withdrawal_value)
 
 if bank.user_input == 'd':
     deposit_value = int(input('Enter Your Deposit Value: '))
